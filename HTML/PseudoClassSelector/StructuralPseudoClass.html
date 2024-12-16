@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StructuralPseudoClass</title>
+    <style>
+        .c2{
+            display: flex;
+            padding: 100px 50px;
+            margin: 100px 50px;
+            border: 2px solid black;
+            
+        }
+        .c1{
+            border: 2px solid black;
+        }
+        .c3{
+            border: 2px solid black;
+        }
+        p:first-child{
+            color: red;
+        }
+        p:last-child{
+            color: yellow;
+        }
+        p:nth-child(2){
+            color: palevioletred;
+        }
+
+        h1:first-of-type{
+            color: red;
+        }
+
+        h1:last-of-type{
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="c2">
+        <div class="c1">
+
+        <center><h1>DIV-1</h1></center>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="c3">
+
+        <center><h1>DIV-2</h1></center>
+
+        <span>&nbsp;&nbsp;Lorem, ipsum.</span>
+        <h1>&nbsp;&nbsp;  Lorem ipsum dolor sit amet consectetur.</h1>
+        <h1>&nbsp;&nbsp;  Lorem ipsum dolor sit amet consectetur.</h1>
+        <h1>&nbsp;&nbsp;  Lorem ipsum dolor sit amet consectetur.</h1>
+        <h1>&nbsp;&nbsp;  Lorem ipsum dolor sit amet consectetur.</h1>
+        <span>Lorem, ipsum.</span>
+    </div>
+</div>
+</body>
+</html>
