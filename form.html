@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+   <FORM action="">
+    <FIEldset>
+        <LEGend>REGISTRATION FORM</LEGend>
+        <label for="name">User Name: </label>
+        <input id="name" type="text"  value="Microsoft" readonly> <br> <br>
+
+        <label for="pwd">Password: </label>
+        <input id="pwd" type="password" required> <br> <br>
+
+        <label for="email">email: </label>
+        <input id="email" type="email" placeholder="abcd@gmail.com" required> <br> <br>
+
+        <label for="phone">Phone Number: </label>
+        <input id="phone" type="tel" maxlength="10"> <br> <br>
+
+        <label for="ps">Project: </label>
+        <textarea name="ps" id=""></textarea><br> <br>
+
+        <label for="gender">Gender:</label>
+        <input id="gender" type="radio">Male 
+        <input id="gender" type="radio" disabled>Female <br> <br>
+
+        <label for="education">Education:</label>
+        <input id="education" type="checkbox">BE 
+        <input id="education" type="checkbox" checked>B.TECH
+        <input id="education" type="checkbox">MCA
+        <input id="education" type="checkbox">BCA
+        <input id="education" type="checkbox">MTECH <br> <br>
+
+        <label for="graduation">Graduation Year:</label>
+        <select id="graduation">
+        <optgroup>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+            <option>2024</option>
+
+        </optgroup>
+        </select> <br><br>
+
+        <label for="exp">Experience</label>
+        <input type="range" id="exp"> <br> <br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob"  min="2024-12-31" max="2025-12-31"> <br><br>
+
+        <label for="resume">Resume:</label>
+        <input type="file" id="resume"> <br><br>
+
+        <button>Submit</button>
+        <button>Reset</button>
+
+        
+        
+
+    </FIEldset>
+   </FORM>
+    
+</body>
+</html>
